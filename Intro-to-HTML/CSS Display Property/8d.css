@@ -1,0 +1,41 @@
+input{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200,200,200);
+  margin-bottom: 0px;
+}
+.first-name,.last-name{
+  width: 148px;
+}
+.email{
+ display: block;
+ width: 334px;
+ margin-top: 12px;
+}
+.sign-up{
+  margin-top: 12px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 368px;
+  background-color: rgb(47, 127, 231);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.25s background-color 0.25s;
+}
+.sign-up:hover{
+  opacity: 0.7;
+}
+.sign-up:active{
+  background-color: green;
+  
+}
